@@ -16,18 +16,18 @@ limitations under the License.
 
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #09F;
-   --text: #CCC;
-   --background: #080808;
-   --background-elevated: #222;
+   --primary: #66D9EF;
+   --text: #d6dce6;
+   --background: #282A2E;
+   --background-elevated: #323844;
 
    /* These should be less important: */
-   --background-hover: rgba(255, 255, 255, 0.1);
+   --background-hover: rgba(0, 0, 0, 0.1);
    --background-light: #AAA;
    --background-bright: #FFF;
 
-   --border-dim: #666;
-   --border-bright: var(--primary);
+   --border-dim: #15171b;
+   --border-bright: rgba(0, 0, 0, 0.36);
 
    --text-bright: #FFF;
    --text-special: var(--primary);
@@ -687,4 +687,63 @@ ts-jumper, ts-jumper.active {
 }
 ts-jumper ts-jumper-container {
   box-shadow: 0 5px 20px rgba(0,0,0,1);
+}
+
+/* Custom */
+.p-channel_sidebar__name {
+    color: #aab1be;
+}
+
+.p-channel_sidebar__badge, .p-channel_sidebar__banner--mentions {
+    background: #759633;
+}
+
+.day_container .day_divider .day_divider_label, .day_divider .day_divider_label, #convo_container .convo_flexpane_divider .reply_count {
+    border: 1px solid #15171b;
+}
+
+.feature_name_tagging_client .app_preview_link_slug, .feature_name_tagging_client .internal_member_link, .feature_name_tagging_client .internal_user_group_link, .feature_name_tagging_client ts-mention {
+    background-color: #191b21 !important;
+    color: #AE81FF;
+}
+
+#client_body:not(.onboarding):before, .channel_header, #col_messages, #footer {
+    box-shadow: none;
+}
+
+#threads_msgs_scroller_div {
+    font-size: 15px;
+    background: #1f2126;
+    height: calc(100% - 16px);
+    margin-top: 8px;
+    overflow-y: scroll;
+}
+
+ts-thread {
+    background: #1f2126;
+}
+
+ts-thread .thread_messages {
+    background: #1f2126;
+    border: 1px solid #131417;
+}
+
+#threads_msgs_scroller_div .threads_caught_up_divider .divider_label {
+    background: #282a2e;
+    color: #a4abb8;
+}
+
+.reply_input_container .ql-container {
+    background-color: #1f2126;
+    border: 1px solid #282a2e;
+}
+
+.feature_name_tagging_client #edit_topic_inner:before {
+    background: #1f2126;
+    border: 1px solid #1c1e21;
+}
+
+ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply) {
+    background: #F9F9F9;
+    box-shadow: inset 1px 0 0 0 #66d9ef;
 }
