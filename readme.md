@@ -65,7 +65,7 @@ NB: You'll have to do this every time Slack updates.
 
 # Forking & editing the theme
 
-To edit the CSS, I opened up Slack in my browser and ran this code in the console to apply the changes (you'd want to change the URL to the one that you're working with, keeping in mind that the most recent commit hash is in the URL so that the GitHub CDN caches indefintiely for each URL):
+After forking, you'll want to edit your CSS. To do this, you can open Slack in your browser and run the following code in the console to preview the changes. You'll want to change the URL to the one that you're working with (keeping in mind that the most recent commit hash is in the URL since the GitHub CDN caches indefintiely for each URL):
 ```
 $.ajax({
    url: 'https://cdn.rawgit.com/nathanlambert/slack-dark-theme/cf5530dfab9934709564028db47595c2de02fa71/custom.css',
