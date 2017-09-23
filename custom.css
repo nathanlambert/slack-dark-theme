@@ -761,7 +761,7 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
     background: #141619;
 }
 
-p-emoji_picker__preview_text {
+.p-emoji_picker__preview_text {
     background: #323844;
     color: #d2d8e2;
 }
