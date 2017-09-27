@@ -48,7 +48,7 @@ h1, h2, h3, h4 {
 }
 
 .TeamSidebarItem.unreads .TeamSidebarItem-indicator {
-   background-color: var(--border-bright) !important;
+   background-color: var(--primary) !important;
    opacity: 1;
 }
 
@@ -691,6 +691,9 @@ ts-jumper ts-jumper-container {
 
 .day_container .day_divider .day_divider_label, .day_divider .day_divider_label, #convo_container .convo_flexpane_divider .reply_count {
     border: 1px solid #15171b;
+}
+.divider_label {
+    color: #e0224c;
 }
 
 .feature_name_tagging_client .app_preview_link_slug, .feature_name_tagging_client .internal_member_link, .feature_name_tagging_client .internal_user_group_link, .feature_name_tagging_client ts-mention {
