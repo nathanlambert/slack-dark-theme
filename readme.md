@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
    let webviews = document.querySelectorAll(".TeamView webview");
 
    // Fetch our CSS in parallel ahead of time
-   const cssPath = 'https://cdn.rawgit.com/nathanlambert/slack-dark-theme/cf5530dfab9934709564028db47595c2de02fa71/custom.css';
+   const cssPath = 'https://cdn.rawgit.com/nathanlambert/slack-dark-theme/8ae6728c73e40dae759c4a942220e15a1bf54009/custom.css';
    let cssPromise = fetch(cssPath).then(response => response.text());
 
    let customCustomCSS = `
@@ -68,7 +68,7 @@ NB: You'll have to do this every time Slack updates.
 After forking, you'll want to edit your CSS. To do this, you can open Slack in your browser and run the following code in the console to preview the changes. You'll want to change the URL to the one that you're working with (keeping in mind that the most recent commit hash is in the URL since the GitHub CDN caches indefintiely for each URL):
 ```
 $.ajax({
-   url: 'https://cdn.rawgit.com/nathanlambert/slack-dark-theme/cf5530dfab9934709564028db47595c2de02fa71/custom.css',
+   url: 'https://cdn.rawgit.com/nathanlambert/slack-dark-theme/8ae6728c73e40dae759c4a942220e15a1bf54009/custom.css',
    success: function(css) {
      $("<style></style>").appendTo('head').html(css);
    }
