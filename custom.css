@@ -16,7 +16,7 @@ limitations under the License.
 
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #66D9EF;
+   --primary: #6bc0d0;
    --text: #d6dce6;
    --background: #282A2E;
    --background-elevated: #323844;
@@ -684,33 +684,31 @@ ts-jumper ts-jumper-container {
 .p-channel_sidebar__name {
     color: #aab1be;
 }
-
 .p-channel_sidebar__badge, .p-channel_sidebar__banner--mentions {
     background: #759633;
 }
-
 .day_container .day_divider .day_divider_label, .day_divider .day_divider_label, #convo_container .convo_flexpane_divider .reply_count {
     border: 1px solid #15171b;
 }
 .divider_label {
     color: #e0224c;
 }
-
 .feature_name_tagging_client .app_preview_link_slug, .feature_name_tagging_client .internal_member_link, .feature_name_tagging_client .internal_user_group_link, .feature_name_tagging_client ts-mention {
     background-color: #282a2e !important;
     color: #aadbe4 !important;
 }
-
+.app_preview_link_slug, .internal_member_link, .internal_user_group_link, ts-mention {
+    background: #363a4c;
+    color: #0576b9;
+}
 .comment .mention, .feature_name_tagging_client .comment .mention, .feature_name_tagging_client ts-message .mention, ts-message .mention, span.match {
     border: 1px solid var(--border-bright);
     background-color: #473467 !important;
     color: #d2b9ff !important;
 }
-
 #client_body:not(.onboarding):before, .channel_header, #col_messages, #footer {
     box-shadow: none;
 }
-
 #threads_msgs_scroller_div {
     font-size: 15px;
     background: #1f2126;
@@ -718,87 +716,71 @@ ts-jumper ts-jumper-container {
     margin-top: 8px;
     overflow-y: scroll;
 }
-
 ts-thread {
     background: #1f2126;
 }
-
 ts-thread .thread_messages {
     background: #1f2126;
     border: 1px solid #131417;
 }
-
 #threads_msgs_scroller_div .threads_caught_up_divider .divider_label {
     background: #282a2e;
     color: #a4abb8;
 }
-
 .reply_input_container .ql-container {
     background-color: #1f2126;
     border: 1px solid #282a2e;
 }
-
 .feature_name_tagging_client #edit_topic_inner:before {
     background: #1f2126;
     border: 1px solid #1c1e21;
 }
-
 ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply) {
     background: #F9F9F9;
     box-shadow: inset 1px 0 0 0 #66d9ef;
 }
-
 #msgs_div .unread_divider.no_unreads hr {
     border-top-color: #e0224c !important;
 }
-
 .p-emoji_picker__footer {
     background: #323844;
 }
-
 .p-emoji_picker__group_tab--active {
     background: #282a2e;
 }
-
 .p-emoji_picker__group_tab:hover {
     background: #141619;
 }
-
 .p-emoji_picker__preview_text {
     background: #323844;
     color: #d2d8e2;
 }
-
 .p-emoji_picker__content:hover .p-emoji_picker__skintone_btn_container {
     border: 1px solid #3c4556;
     background: #282a2e;
 }
-
 #flex_contents .heading_text {
     color: #d6dce6;
 }
-
 .c-scrollbar:hover .c-scrollbar__bar, .c-scrollbar__bar:active {
     opacity: 0.25;
 }
-
 .feature_name_tagging_client .rxn.user_reacted .emoji_rxn_count {
     color: #35a3e4;
 }
-
 .feature_name_tagging_client .rxn.user_reacted {
     border-color: rgb(5, 118, 185) !important;
 }
-
 .flex_pane_showing #col_flex {
     border-left: none;
 }
-
 #convo_container .convo_flexpane_divider, #file_preview_scroller .convo_flexpane_divider {
     color: #717274;
     border-top: 1px solid #282a2e;
 }
-
 #file_reply_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container, #reply_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container, .reply_input_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container {
     color: #b0b5be;
+}
+#edit_topic_inner:before {
+    background: #222327;
 }
