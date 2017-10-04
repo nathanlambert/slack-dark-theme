@@ -784,3 +784,33 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
 #edit_topic_inner:before {
     background: #222327;
 }
+.lazy_filter_select.single.filter_in_list_style .lfs_list_container .lfs_item, .lazy_filter_select.single.filter_in_list_style .lfs_value .lfs_item {
+    color: var(--text);
+}
+.c-member__display-name, .c-team__display-name, .c-usergroup__handle {
+    color: var(--text);
+}
+#details_tab .feature_sli_channel_insights .channel_created_section .creator_link, #details_tab .feature_sli_channel_insights .channel_purpose_section .channel_purpose_text {
+    color: var(--text);
+}
+.channel_prefs__muting_checkbox_label:not(.subtle_silver) {
+    color: var(--text) !important;
+}
+.highlight_yellow_bg {
+    background-color: #495e5f !important;
+    box-shadow: inset 2px 0 0 0 #a4d02c;
+    padding-left: 10px;
+}
+#channel_browser .channel_browser_row_header {
+    color: var(--text);
+}
+#channel_browser .channel_browser_creator_name {
+    color: var(--text);
+}
+#footer_archives_preview {
+    background-color: #333944;
+    border-top: 1px solid #495467;
+}
+.c-archive_footer__title {
+    color: var(--text);
+}
