@@ -174,7 +174,7 @@ ts-message .action_hover_container .btn_msg_action,
 #search_filters a,
 .menu,
 .menu #menu_items_scroller,
-.btn, .btn_outline {
+.btn_outline {
   background: var(--background-elevated) !important;
 }
 
@@ -737,10 +737,10 @@ ts-thread .thread_messages {
 }
 ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply) {
     background: #F9F9F9;
-    box-shadow: inset 1px 0 0 0 #66d9ef;
+    box-shadow: none;
 }
 #msgs_div .unread_divider.no_unreads hr {
-    border-top-color: #e0224c !important;
+    border-top-color: #631c2b !important;
 }
 .p-emoji_picker__footer {
     background: #323844;
@@ -813,4 +813,32 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
 }
 .c-archive_footer__title {
     color: var(--text);
+}
+#message_edit_container .message_input {
+    background: #373944;
+}
+#edit_topic_inner:before {
+    background: #1f2025;
+}
+.app_preview_link_slug, .internal_member_link, .internal_user_group_link, ts-mention {
+    background: #202227;
+}
+.email_container.email_reset .email_inline_collapsed_content .email_header .file_header_meta,
+.email_container.email_reset .email_inline_collapsed_content .email_header .file_header_title,
+.file_container .email_content,
+.email_container.email_reset .email_header .email_header_meta,
+.email_container.email_reset .email_header .email_header_title,
+{
+    color: var(--text);
+}
+#msgs_div .unread_divider .divider_label, #unread_msgs_div .unread_divider .divider_label {
+    background: #292a2f;
+    color: #e0224c;
+}
+#msgs_div .unread_divider.no_unreads .divider_label {
+    background: #292a2f !important;
+    color: #631c2b !important;
+}
+.app_preview_link_slug:hover, .internal_member_link:hover, .internal_user_group_link:hover, ts-mention:hover {
+    background: #373944;
 }
